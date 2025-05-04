@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <Button android:id="@+id/button0" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button1" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button2" android:layout_width="100dp" android:layout_height="100dp"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/button3" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button4" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button5" android:layout_width="100dp" android:layout_height="100dp"/>
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/button6" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button7" android:layout_width="100dp" android:layout_height="100dp"/>
+            <Button android:id="@+id/button8" android:layout_width="100dp" android:layout_height="100dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:visibility="invisible"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/playAgainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"/>
+</LinearLayout>
